@@ -16,14 +16,14 @@ public class AppTest extends TestCase {
 	 */
 	public AppTest(String testName) {
 		super(testName);
-		System.out.println("AppTest(String testName)......................1");
+		System.out.println("AppTest(String testName)......................1a");
 	}
 
 	/**
 	 * @return the suite of tests being tested
 	 */
 	public static Test suite() {
-		System.out.println("suite()......................2");
+		System.out.println("suite()......................2a");
 		return new TestSuite(AppTest.class);
 	}
 
@@ -31,7 +31,7 @@ public class AppTest extends TestCase {
 	 * Rigourous Test :-)
 	 */
 	public void testApp() {
-		System.out.println("testApp......................3");
+		System.out.println("testApp......................3a");
 		assertTrue(true);
 	}
 }
