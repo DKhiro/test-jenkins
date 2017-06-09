@@ -16,7 +16,7 @@ public class AppTest extends TestCase {
 	 */
 	public AppTest(String testName) {
 		super(testName);
-		System.out.println("AppTest(String testName)......................64");
+		System.out.println("AppTest(String testName)......................65");
 	}
 
 	/**
@@ -24,8 +24,7 @@ public class AppTest extends TestCase {
 	 */
 	public static Test suite() {
 		System.out.println("suite()......................2a");
-		//return new TestSuite(AppTest.class);
-		return false;
+		return new TestSuite(AppTest.class);
 	}
 
 	/**
