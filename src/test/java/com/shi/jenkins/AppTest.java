@@ -16,7 +16,7 @@ public class AppTest extends TestCase {
 	 */
 	public AppTest(String testName) {
 		super(testName);
-		System.out.println("AppTest(String testName)......................45");
+		System.out.println("AppTest(String testName)......................46");
 	}
 
 	/**
